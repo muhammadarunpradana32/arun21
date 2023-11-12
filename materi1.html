@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="materi1.html" class="w3-bar-item w3-button">Materi 1</a>
+        <a href="materi2.html" class="w3-bar-item w3-button">Materi 2</a>
+        <a href="materi3.html" class="w3-bar-item w3-button">Materi 3</a>
+        <a href="materi4.html" class="w3-bar-item w3-button">Materi 4</a>
+        <a href="materi5.html" class="w3-bar-item w3-button">Materi 5</a>
+        <a href="materi6.html" class="w3-bar-item w3-button">Materi 6</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <!-- MASUKAN GAMBAR --> <img src="https://cdn.mos.cms.futurecdn.net/qsZUKTAA8Zr9ENRFSmhdz4-1200-80.jpg" style="width:100%"> <!-- MASUKAN GAMBAR -->
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Materi 1</h3>
+      <p><b>Ehe, just laugh at some moment</b></p>   
+    </div>
+  </div>
+  
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">ABOUT CPU</h2>
+    <p class="w3-opacity"><i>JADI GINI</i></p>
+    <p class="w3-justify"></p> 
+    <p><b>Pengertian -</b>CPU/Central Processing Unit adalah bagian terpenting dari sebuah komputer yang
+bertanggung jawab untuk menjalankan instruksi-instruksi yang diberikan kepada
+komputer.</p>
+<b>Komponen CPU</b>
+<b>Control Unit</b>: Mengendalikan operasi dasar CPU dan mengarahkan aliran data dan
+instruksi dalam prosesor.
+<p><b>-Arithmetic and logic unit (ALU)</b>: Untuk melakukan operasi aritmetika dan operasi 
+logika berdasar instruksi yang ditentukan.
+<p><b>-Register</b>: Penyimpanan sementara yang digunakan untuk menyimpan data yang 
+sedang diproses atau hasil perhitungan sementara selama eksekusi instruksi 
+komputer.</p>
+<P><b>-CPU Interconnection</b>: sistem koneksi dan bus yang menghubungkan komponen 
+internal CPU dengan bus-bus eksternal CPU.</P>
+
+<p><b>ALU (Arithmetic Logic Unit)</b> adalah komponen penting dalam unit pemrosesan pusat 
+(CPU) pada komputer. ALU bertanggung jawab untuk melakukan operasi aritmatika 
+(seperti penjumlahan,pengurangan, perkalian, dan pembagian) serta operasi logika 
+(seperti AND, OR, XOR,dan NOT) dalam sistem komputer.</p>
+<b>Peran ALU:</b>
+<br>-Operasi Aritmatika
+<br>-Operasi Logika
+<br>-Perbandingan dan Pemrosesan Data
+<br>-Operasi Bitwise
+<br>-Penaganan Overflow dan Carry
+<br>-Dekoder
+<br>-Rangkaian Aritmatika
+<br>-Rangkaian Logika
+<br>-Pembanding(Comparator)
+<br>-Rangkaian penanganan Overflow dan Carry
+<p><b>-Bus Data(Jalur Komunikasi)</b>
+<b>Register</b>
+Register adalah salah satu darisekumpulan kecil tempat penyimpanan data yang 
+merupakan bagian dari prosesor komputer. Register dapat menyimpan instruksi, 
+alamat penyimpanan, atau jenis data apapun (seperti urutan bit atau 
+karakterindividual).
+Operasi Register
+<p><b>-Fetch: Operasi Fetch digunakan untuk mengambil instruksi yang diberikan oleh 
+pengguna.</b>
+<p><b>-Decode</b>: Operasi Decode digunakan untuk menafsirkan instruksi.</b>
+<P><B>-Execute</B>: Operasi Execute dilakukan oleh CPU. Output yang dihasilkan oleh CPU< 
+kemudian disimpan ke dalam memori dan setelah itu ditampilkan di layar pengguna.
+<p><b>Jenis-Jenis Register</b>
+<b>-MAR(Memory Address Register)</b>
+Register ini menyimpan alamat memori dari data dan instruksi. Register ini 
+digunakan untuk mengakses data dan instruksi dari memoriselama fase eksekusi 
+suatu instruksi.
+<b>-MDR(Memory Data Register)</b>
+MDR adalah register unit kontrol komputer yang berisi data yang akan disimpan di 
+penyimpanan computer (misalnya RAM), atau data setelah diambil dari penyimpanan 
+komputer.Register ini bertindak seperti buffer dan menyimpan apa pun yang disalin 
+dari memori yang siap digunakan oleh prosesor. MDR menyimpan informasi sebelum 
+masuk ke decoder.
+<b>-MBR(Memory Buffer Register)</b>
+Memory Buffer Register digunakan untukmenyimpan informasi dan data yang dapat
+dibaca atau ditulis dalam memori komputer.Fungsi utama MBR adalah untuk 
+menyimpan berbagai jenisinstruksi komputer dan data yang dapatditransfer 
+antarmemori komputer.Register MBR adalah register terkait memori utama untuk 
+prosesor yang ada di unit pemrosesan karena register ini mampu melakukan 
+operasiterkait memori dengan sangat cepat.
+<b>-PC(Program Counter)</b>
+Nama lain dari register Program Counter adalah Instruction Address Register 
+(IAR) atau IC (instruction counter).Program Counter digunakan untuk menunjukkan 
+posisisaat ini dari urutan program dalam sistem komputer.Ketika instruksi diambil 
+dari memori, nilai Program Counter bertambah satu dan menunjuk ke instruksi 
+berikutnya yangperlu dieksekusi oleh prosesor CPU. Program Counter digunakan 
+untuk menyimpan alamatinstruksi langsung yang perlu dieksekusi selanjutnya.
+<b>-Accumulator</b>
+Register Accumulator memiliki peran yang sangat penting karena jika register ini 
+tidak ada maka semua hasil sementara yang perlu disimpan dalam memori utama 
+dapat menambah overhead pada memori. Hal ini karena operasi baca dan tulis yang 
+tidak perlu akan meningkat.Hasil sementara yang diperoleh dari CPU dapat dengan 
+mudah disimpan di register Accumulator. Kecepatan akses register Accumulator 
+jauh lebih cepat dibandingkan dengan memori utama. Dalam banyak sistem modern, 
+ada berbagai jenis accumulator yang dapat digunakan untuk menyimpan hasil
+sementara.
+<b>-Index Register</b>
+Index Register di CPU komputer adalah register prosesor yang digunakan untuk
+memodifikasi Alamat operan selama menjalankan program.Register ini banyak 
+digunakan untuk melakukan operasi array atau vektor. Konten diambil dari register 
+indeks dan ditambahkan atau dikurangi ke beberapa Alamat langsung untuk 
+mendapatkan Alamat data yang efektif.
+<b>-Instruction Register</b>
+Instruction register merupakan jenis lain dari register CPU yang digunakan untuk 
+menyimpan instruksi yang sedang dieksekusi atau yang akan didekodekan.Dalam 
+prosesor, register ini menyimpan setiap instruksi di dalamnya, dan kemudian dapat 
+dieksekusi oleh prosesor. Instruksi dapat dieksekusi dalam satu langkah atau dapat 
+dieksekusi dalam beberapa langkah.
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge" section id="contact">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <!-- MASUKAN LINK IG --> <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram w3-hover-opacity"></i> <!-- MASUKAN LINK IG -->
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+</body>
+</html>
